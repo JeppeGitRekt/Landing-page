@@ -1,0 +1,103 @@
+body {
+    font-family: roboto;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    background-color: #1f2937;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-content {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    flex-direction: column;
+}
+
+.herotext {
+    font-size: 48px;
+    display: flex;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.image-top {
+    display: flex;
+    flex: 0 1 10em;
+}
+
+.button-top {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+}
+
+.middle-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagebox-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 2em;
+    flex-wrap: wrap;
+}
+
+.middle-header {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-area {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
