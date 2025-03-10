@@ -8,13 +8,13 @@ body {
     display: flex;
     padding: 20px;
     background-color: #1f2937;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 18px;
     color:#e5e7eb;
     display: flex;
+    gap: 3em;
+    padding-right: 4em;
 }
-
-
 
 .subtext {
     font-size: 18px;
@@ -23,19 +23,12 @@ body {
     padding-bottom: 2em;
 }
 
-.header-links {
-    font-size: 18px;
-    color: #e5e7eb;
-    gap: 15px;
-    display: flex;
-    padding-top: 1em;
-    padding-right: 10em;
-}
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
     flex: 1 0 auto;
+    padding-left: 5em;
 }
 
 
@@ -44,7 +37,7 @@ body {
     background-color: #1f2937;
     align-items: center;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     flex: 1 0 auto;
     padding-bottom: 4em;
     padding-top: 3em;
@@ -53,6 +46,7 @@ body {
 .top-content-left {
     display: flex;
     flex-direction: column;
+    padding-right: 4em;
 }
 
 .herotext {
@@ -66,7 +60,7 @@ body {
     display: flex;
     color: #e5e7eb;
     max-width: 500px;
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
 }
 
 .image-top {
@@ -144,7 +138,7 @@ body {
     justify-content: center;
     display: flex;
     background-color: #e5e7eb;
-    height: 250px;
+    height: 300px;
     flex-direction: column;
 }
 
